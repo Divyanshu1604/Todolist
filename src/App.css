@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #BEADFA;
+  margin-top: 10%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-btn {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.Listheading {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #113946;
+  font-style: oblique;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listData {
+  display: inline-block;
+  margin-right: 10px;
+  color: #1F1717;
+  font-style: san-serif;
+}
+
+.button-position {
+  display: inline-block;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+p {
+  position: relative;
+}
+
+.button-position {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
